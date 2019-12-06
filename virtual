@@ -7,9 +7,9 @@ int main()
    second_var=3;
    float divide;
  
-   add = first + second;
-   subtract = first - second;
-   multiply = first * second;
+   add = first_var + second_var;
+   subtract = first_var - second_var;
+   multiply = first_var * second_var;
    divide = (float) first/second; //typecasting
    
    printf("Sum = %d\n", add);
