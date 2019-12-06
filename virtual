@@ -10,12 +10,12 @@ int main()
    add = first_var + second_var;
    subtract = first_var - second_var;
    multiply = first_var * second_var;
-   divide = (float) first/second; //typecasting
+   divide = (float) first_var/second_var; //typecasting
    
    printf("Sum = %d\n", add);
    printf("Difference = %d\n", subtract);
    printf("Multiplication = %d\n", multiply);
-   printf("Division = %.2f\n", divide);
+   printf("Division = %.3f\n", divide);
    
    return 0;
 }
